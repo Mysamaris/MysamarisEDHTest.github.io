@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Great US Crossing</title>
+	
+    <!-- For style formatting --->
+    <script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="js/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.css" />
+	<!--- /End mobile styling -->
+
+</head>
+<body>
+<div class="container-fluid" id="page-header">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<center><img id="logo" src="img/logos/greatuscrossing_logo.png" /></center>
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h2 id="slogan">VIRTUALLY RIDE ACROSS THE COUNTRY FOR CHARITY</h2>
+            <p>Ride because you care. Ride because you can. Ride to make a difference.
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<button class="btn">Register</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="top-icon-slider">
+	<div class="row clearfix">
+    	<div class="col-md-2 col-xs-1 text-right arrow-icon"><img src="img/icons/greatuscrossing_lessthan.png" /></div>
+        <a href="#about"><div class="col-xs-3 col-md-2 text-center left-button-link"><img src="img/icons/greatuscrossing_bike.png" /><br />ABOUT</div></a>
+        <a href="#route"><div class="col-xs-3 col-md-2 text-center left-button-link"><img src="img/icons/greatuscrossing_pin.png" /><br />ROUTE</div></a>
+        <a href="#prizes"><div class="col-xs-3 col-md-2 text-center left-button-link" id="trophy-link"><img src="img/icons/greatuscrossing_trophy.png" /><br />PRIZES</div></a>
+        <a href="#fundraising"><div class="hidden-xs col-md-2 text-center"><img src="img/icons/greatuscrossing_hands.png" /><br />FUNDRAISING</div></a>
+        <div class="col-md-2 col-xs-1 text-left arrow-icon"><img src="img/icons/greatuscrossing_greaterthan.png" /></div>
+    </div>
+</div>
+<a name="about"></a>
+<div class="container-fluid" id="about-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h2>ABOUT</h2>
+        	<p>This spring, join the country's most passionate and dedicated cyclists in an epic challenge to (virtually) ride across the country, collectively covering thousands of miles in teams of up to five members to raise funds and awareness for charity.</p>  
+			<p>Wherever you live, wherever you ride, whatever your pace, or fitness level – see how far you can cross. </p>
+			<p>Ride for clean water. Ride for equal access to education. Ride to find a cure. Ride for refugees. Ride for the arts, for animals, for access to bikes.   Whatever your cause, ride to make a difference.  </p>
+			<p>Join us.</p>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="steps-box">
+	<div class="row clearfix">
+        <div class="col-md-1 hidden-xs"></div>
+        <div class="col-xs-5 hidden-sm hidden-md">
+        	<img src="img/icons/greatuscrossing_vertical_steps.png" width="100%" />
+        </div>
+        <div class="col-md-10 col-xs-7 text-center">
+            <div class="step-box text-center">
+                <p><strong>STEP 1</strong></p>
+                <p>Register</p>
+                <p>Take the challenge to ride all the miles you can this May and see how far your team can go. Choose your cause and set yourself a goal. </p>
+            </div>
+            <div class="step-box text-center">
+                <p><strong>STEP 2</strong></p>
+                <p>Connect</p>
+                <p>Use Strava or MapMyFitness to log miles. As you track your miles your team will progress across the country, working together to reach key milestones and collecting rewards along the way.   </p>
+            </div>
+            <div class="step-box text-center">
+                <p><strong>STEP 3</strong></p>
+                <p>Start fundraising</p>
+                <p>Share your page and your journey with friends and family, and ask for their support.  Raise funds to make a difference.</p>
+            </div>
+        </div>
+        <div class="col-md-1 hidden-xs"></div>
+    </div>
+    <div class="row clearfix hidden-xs" id="steps-icons">
+    	<div class="col-md-12 text-center">
+        	<img src="img/greatuscrossing_stepsbar.png" />
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-2"></div>
+        <div class="col-md-2 text-center"></div>
+        <div class="col-md-2 text-center"></div>
+        <div class="col-md-2 text-center"></div>
+        <div class="col-md-2 text-center"></div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<p>Questions before you begin? Find your answers <a href="">here</a>.</p>
+        </div>
+    </div>
+</div>
+<a name="route"></a>
+<div class="container-fluid" id="map-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h2>THE COURSE</h2>
+        	<p>The Great US Crossing course starts in San Francisco and stretches over 3000 virtual miles, passing through 13 states – finishing in New York City.  As your team logs miles from rides in your own neighborhoods, the virtual course map on this website will dynamically update to move you closer to your goal.   </p>
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 col-xs-12">
+        	<img class="hidden-xs" id="map-image" src="img/greatuscrossing_map.png" />
+        	<img class="hidden-sm hidden-lg hidden-md" id="map-image" src="img/greatuscrossing_map_mobile.png" />
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-5 col-xs-6 text-center" id="start-box">
+        	<p>
+            	<strong>START</strong><br />
+                Golden Gate Bridge
+          	</p>	
+        </div>
+    	<div class="col-md-2 hidden-xs text-center">
+        </div>
+    	<div class="col-md-5 col-xs-6 text-center" id="finish-box">
+        	<p>
+    	       	<strong>FINISH</strong><br />
+                New York City
+          	</p>
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	How far will your team ride?
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="countdown-box">
+	<div class="row clearfix">
+    	<div class="col-md-3 hidden-xs text-center"></div>
+    	<div class="col-md-2 col-xs-4">31 DAYS</div>
+        <div class="col-md-2 col-xs-4">300 TEAMS</div>
+        <div class="col-md-2 col-xs-4">3,000 MILES</div>
+        <div class="col-md-1 hidden-xs"></div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	Thousands of cyclists virtually crossing the country for charity
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="break-bar">
+	<div class="row clearfix">
+    	<div class="col-md-12"></div>
+    </div>
+</div>
+<a name="prizes"></a>
+<div class="container-fluid" id="prizes-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h2>WIN AWESOME PRIZES</h2>
+            <p>Pedal past notable landmarks, hit key milestones, compete in physical and fundraising challenges, and win awesome prizes and sweet gear along the way.</p>
+        </div>
+    </div>
+	<div class="row clearfix">
+    	<div class="col-md-3"></div>
+        <div class="col-md-2 text-center">
+        	<img src="img/icons/greatuscrossing_flag_red.png" />
+            <p>
+            	<strong>FIRST TEAM TO</strong><br />
+            	Cross the Finish Line
+            </p>
+        </div>
+        <div class="col-md-2 text-center">
+        	<img src="img/icons/greatuscrossing_hands_red.png" />
+            <p>
+            	<strong>HIGHEST</strong><br />
+            	Fundraiser
+            </p>
+        </div>
+        <div class="col-md-2 text-center">
+        	<img src="img/icons/greatuscrossing_mountains_red.png" />
+            <p>
+            	<strong>GREATEST</strong><br />
+            	Elevation Gained
+            </p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+<div class="container-fluid" id="last-joined-box">
+	<div id="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<img src="img/icons/greatuscrossing_bike_black.png" />
+        	<p>
+            	No riders have joined yet...
+            </p>
+        </div>
+    </div>
+</div>
+<a name="fundraising"></a>
+<div class="container-fluid" id="charities-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h2>FEATURED CHARITIES</h2>
+            <p>It’s all about fundraising for your favorite cause.  Choose from one of ten featured charities or choose the cause that's closest to your heart.</p>
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-1"></div>
+    	<div class="col-md-10 text-center">
+        	<span class="charity-span"></span>
+        	<span class="charity-span"></span>
+        	<span class="charity-span"></span>
+        	<span class="charity-span"></span>
+        	<span class="charity-span"></span>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row clearfix" style="display: none;">
+    	<!-- waiting for copy-->
+    	<div class="col-md-12 text-center">
+        	<p>
+            	<strong>Interested in contributing?</strong><br />
+                Contribution text goes here.<br />
+                <button class="btn">Learn More</button>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="social-media-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<h3>#CROSSWITHUS</h3>
+            <p>Join our social community and share with everyone how you ride this May.</p>
+        </div>
+    </div>
+    <div class="row clearfix">
+    	<div class="col-md-1"></div>
+    	<div class="col-md-10 text-center" id="crosswithus-box">
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+<div class="container" id="bottom-slider">
+	<div class="row clearfix">
+    	<div class="col-md-12">
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="register-bottom">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<button class="btn">REGISTER NOW</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="footer-box">
+	<div class="row clearfix">
+    	<div class="col-md-12 text-center">
+        	<p>Fundraising powered by: <img src="img/logos/greatuscrossing_edh_logo.png" /></p>
+            <p>
+            	<a href="">PRIVACY POLICY</a> | 
+                <a href="">TERMS &amp; CONDITIONS</a> | 
+                <a href="">HELP</a>
+            </p>
+        </div>
+    </div>
+</div>
+<style>
+#days, #hours, #minutes, #seconds {
+	display: inline-block;
+	margin: 15px;
+}
+.num-box {
+	text-align: center;
+	border: 1px #000 solid;
+	width: 20px;
+	padding: 6px;
+}
+.charity-span {
+	background: #fff;
+	border: 1px #000 solid;
+	width: 120px;
+	height: 120px;
+	margin-bottom: 10px;
+	display: inline-block;
+	margin: 6px;
+}
+.social-span {
+	margin: 15px;
+	width: 40px;
+	height: 40px;
+	border: 1px #000 solid;
+	display: inline-block;
+}
+.step-box {
+	margin: 15px;
+	width: 25%;
+	display: inline-block;
+}
+@media (max-width: 485px) {
+	.step-box {
+		width: 100%;
+		margin: 5px;
+		margin-top: 30px !important;
+	}
+}
+#page-header {
+	background-color: rgba(0,0,0,0.5);
+	background-image: url(img/header-back.png);
+	background-size: 100% 100%;
+	padding-bottom: 30px;
+	padding-top: -20px;
+	height: 400px;
+	color: #fff;
+}
+#page-header #slogan {
+	font-weight: normal;
+	font-size: 15pt;
+}
+#page-header .btn {
+	width: 150px;
+	border: 1px #ddd solid;
+	background-color: #000;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.btn {
+	text-transform: uppercase;
+}
+#page-header .btn:hover {
+	color: #fff;
+	background: #555;
+}
+#page-header #logo {
+	display: inline-block;
+	width: 40%;
+}
+@media (max-width: 475px) {
+	#page-header {
+		height: 350px;
+		text-align: center;
+	}
+	#page-header #logo {
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		margin-top: -20px;
+		width: 100% !important;
+	}
+}
+.container-fluid, .row {
+	margin: 0px !important;
+}
+#top-icon-slider {
+   	background: rgb(0,102,157); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* Standard syntax */
+	color: #fff;
+	font-size: 7pt;
+}
+#top-icon-slider div div {
+	padding-bottom: 20px;
+}
+#top-icon-slider img {
+	width: 70px;
+	height: 70px;
+	margin-bottom: -10px;
+}
+@media (max-width: 475px) {
+	#top-icon-slider img {
+		width: 100%;
+		height: auto;
+		margin-bottom: -10px;
+	}
+	#top-icon-slider #trophy-link {
+		border-right: none;
+	}
+}
+#map-box {
+   	background-image: url(img/backgrounds/greatuscrossing_map_bg.png);
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#start-box, #finish-box {
+	font-size: 7pt;
+	margin-top: -20px;
+}
+#charities-box {
+   	background-image: url(img/backgrounds/greatuscrossing_charities_bg.png);
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+#crosswithus-box, #last-joined-box, #countdown-box, #steps-box {
+	background: rgb(236,236,236);
+}
+.left-button-link {
+	border-right: 1px #fff solid;
+	
+}
+.arrow-icon img {
+	margin-top: 20px;
+	width: 40px !important;
+	height: 40px !important;
+	border: none;
+	display: inline-block;
+}
+#steps-icons {
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-bottom: 30px !important;
+}
+#steps-icons img {
+	width: 100%;
+}
+#map-image {
+	width: 100%;
+}
+@media (max-width: 475px) {
+	#map-image {
+	}
+}
+#prizes-box img {
+	width: 100%;
+}
+@media (max-width: 475px) {
+	#prizes-box img {
+		width: 50%;
+	}
+}
+#last-joined-box {
+	height: 50px;
+	position: relative;
+	margin-bottom: 5px;
+	z-index: 2;
+}
+#last-joined-box div div {
+}
+#last-joined-box img, #last-joined-box p {
+	display: inline-block;
+	height: 50px;
+}
+#last-joined-box img {
+	border-right: 1px #000 solid;
+	height: 50px;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+#footer-box {
+	background-image: url(img/backgrounds/greatuscrossing_footer_bg.png);
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#footer-box a {
+	color: #fff;
+	font-size: .7em;
+}
+#footer-box a:hover {
+	color: #fff;
+}
+#register-bottom {
+   	background: rgb(0,102,157); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(0,102,157), rgb(0,80,135)); /* Standard syntax */
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#register-bottom .btn {
+	width: 40%;
+	padding: 15px;
+	border: 1px #fff solid;
+	background: transparent;
+	color: #fff;
+}
+#charities-box .btn {
+	border: 1px #fff solid;
+	background: transparent;
+	color: #fff;
+	width: 20%;
+	margin: 15px;
+	padding: 15px;
+}
+#crosswithus-box {
+	height: 450px;
+	margin-bottom: 30px;
+}
+#countdown-box {
+   	background: rgb(236,236,236); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(236,236,236), rgb(190,190,190)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(236,236,236), rgb(190,190,190)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(236,236,236), rgb(190,190,190)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(236,236,236), rgb(190,190,190)); /* Standard syntax */
+}
+#countdown-box span {
+	width: 150px;
+	display: inline-block;
+	margin-top: 2px;
+}
+@media (max-width: 475px) {
+	#countdown-box span {
+		width: 20%;
+		display: inline-block;
+		margin-top: 2px;
+	}
+}
+#countdown-box #days-box {
+	border-right: 1px #000 solid;
+}
+#break-bar {
+	height: 15px;
+	background: url(img/backgrounds/greatuscrossing_map_bg.png);
+}
+#top-icon-slider a {
+	color: #fff;
+}
+#top-icon-slider a:hover {
+	color: #fff;
+}
+#prizes-box h2 {
+	color: #f00;
+}
+</style>
+
+</body>
+</html>
